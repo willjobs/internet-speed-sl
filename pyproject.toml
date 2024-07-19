@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "internet-speed-sl"
+version = "0.1.0"
+description = ""
+authors = ["Will Jobs <7775919+willjobs@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+streamlit = "^1.36.0"
+pandas = "^2.2.2"
+plotly = "^5.22.0"
+dropbox = "^12.0.2"
+python-dotenv = "^1.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
