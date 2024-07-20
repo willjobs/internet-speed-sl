@@ -70,7 +70,7 @@ def get_summary_stats(df: pd.DataFrame) -> str:
         <tr><th>Timeframe</th><th>median</th><th>range</th></tr>
         <tr><td>Last 1 hour</td><td>{hour_stats['median']:.1f} Mbps</td><td>{hour_stats['min']:.1f} &ndash; {hour_stats['max']:.1f} Mbps</td></tr>
         <tr><td>Last 1 day</td><td>{day_stats['median']:.1f} Mbps</td><td>{day_stats['min']:.1f} &ndash; {day_stats['max']:.1f} Mbps</td></tr>
-        <tr><td>Last 1 day</td><td>{week_stats['median']:.1f} Mbps</td><td>{week_stats['min']:.1f} &ndash; {week_stats['max']:.1f} Mbps</td></tr>
+        <tr><td>Last 1 week</td><td>{week_stats['median']:.1f} Mbps</td><td>{week_stats['min']:.1f} &ndash; {week_stats['max']:.1f} Mbps</td></tr>
     </table>
     """
 
