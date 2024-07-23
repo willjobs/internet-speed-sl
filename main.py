@@ -127,9 +127,8 @@ def main():
     )
 
     # set the initial zoom to be the past week of data
-    end_date = datetime.today()
-    start_date = end_date - timedelta(days=7)
-    fig.update_xaxes(type="date", range=[start_date, datetime.today().strftime("%Y-%m-%d")])
+    end_date = datetime.now()
+    fig.update_xaxes(type="date", range=[end_date - timedelta(days=7), end_date])
 
     # Display the plot
     st.plotly_chart(fig, use_container_width=True, config={"displayModeBar": True})
